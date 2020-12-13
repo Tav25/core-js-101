@@ -111,8 +111,6 @@ function getLinearEquationRoot(/* a, b */) {
  *   (0,1) (0,1)     => 0
  *   (0,1) (1,2)     => 0
  */
-// https://onlinemschool.com/math/assistance/vector/angl/
-
 function getAngleBetweenVectors(/* x1, y1, x2, y2 */) {
   // const yt = (Math.sqrt(x1 * x1 + y1 * y1)) * (Math.sqrt(x2 * x2 + y2 * y2));
   // const result = yt * (Math.sqrt(x2 * x2 + y2 * y2));
@@ -165,7 +163,6 @@ function parseNumberFromString(value) {
  *   3,3,3   => 5.196152422706632
  *   1,2,3   => 3.741657386773941
  */
-// http://mymathangels.com/rectangular-parallelepiped-formulas/
 function getParallelipidedDiagonal(a, b, c) {
   return Math.sqrt(a * a + b * b + c * c);
 }
