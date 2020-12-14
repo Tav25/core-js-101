@@ -203,11 +203,11 @@ function extractEmails(str) {
  *             '└──────────┘\n'
  *
  */
-function getRectangleString(/* width, height */) {
-  // const c = `│${' '.repeat(width - 2)}│\n`.repeat(height - 2);
+function getRectangleString(width, height) {
+  const c = `│${' '.repeat(width - 2)}│\n`.repeat(height - 2);
 
-  // return (`┌${'─'.repeat(width - 2)}┐\n${c}└${'─'.repeat(width - 2)}┘`);
-  throw new Error('Not implemented');
+  return (`┌${'─'.repeat(width - 2)}┐\n${c}└${'─'.repeat(width - 2)}┘\n`);
+  // throw new Error('Not implemented');
 }
 
 
